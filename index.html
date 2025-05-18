@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Water Survey Report</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Water Survey Report</h1>
+    <p>Key Questions from Recent Water Usage & Conservation Survey</p>
+  </header>
+
+  <section>
+    <form id="surveyForm">
+      <div class="info-form" aria-label="Respondent information">
+        <div class="info-field">
+          <label for="area">Area</label>
+          <input type="text" id="area" name="area" placeholder="Enter your area" />
+        </div>
+        <div class="info-field">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Enter your name" />
+        </div>
+        <div class="info-field">
+          <label for="locality">Locality</label>
+          <input type="text" id="locality" name="locality" placeholder="Enter your locality" />
+        </div>
+      </div>
+
+      <h2>Survey Questions</h2>
+      <table aria-describedby="surveyQuestionsDescription">
+        <thead>
+          <tr>
+            <th scope="col" style="width: 70%;">Question</th>
+            <th scope="col" style="width: 30%;">Your Answer</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1. How often do you use tap water for drinking and cooking?</td>
+            <td class="answer-cell"><input type="text" name="q1" aria-label="Answer for question 1" /></td>
+          </tr>
+          <tr>
+            <td>2. Do you use any filtration system for your household water? If yes, which type?</td>
+            <td class="answer-cell"><input type="text" name="q2" aria-label="Answer for question 2" /></td>
+          </tr>
+          <tr>
+            <td>3. How would you rate the quality of the water supplied to your home?</td>
+            <td class="answer-cell"><input type="text" name="q3" aria-label="Answer for question 3" /></td>
+          </tr>
+          <tr>
+            <td>4. What is your average daily water consumption per person in your household?</td>
+            <td class="answer-cell"><input type="text" name="q4" aria-label="Answer for question 4" /></td>
+          </tr>
+          <tr>
+            <td>5. Do you have a water meter installed to monitor your household water usage?</td>
+            <td class="answer-cell"><input type="text" name="q5" aria-label="Answer for question 5" /></td>
+          </tr>
+          <tr>
+            <td>6. Have you noticed any recent changes in water availability in your area?</td>
+            <td class="answer-cell"><input type="text" name="q6" aria-label="Answer for question 6" /></td>
+          </tr>
+          <tr>
+            <td>7. Are you aware of local water conservation programs or initiatives?</td>
+            <td class="answer-cell"><input type="text" name="q7" aria-label="Answer for question 7" /></td>
+          </tr>
+          <tr>
+            <td>8. What steps do you take to minimize water wastage in your home?</td>
+            <td class="answer-cell"><input type="text" name="q8" aria-label="Answer for question 8" /></td>
+          </tr>
+          <tr>
+            <td>9. Have you experienced any waterborne illnesses in your household over the past year?</td>
+            <td class="answer-cell"><input type="text" name="q9" aria-label="Answer for question 9" /></td>
+          </tr>
+          <tr>
+            <td>10. Would you support water-saving policies and investments in your community?</td>
+            <td class="answer-cell"><input type="text" name="q10" aria-label="Answer for question 10" /></td>
+          </tr>
+        </tbody>
+      </table>
+    </form>
+  </section>
+
+  <footer>© 2024 Water Survey Initiative</footer>
+</body>
+</html>
+
